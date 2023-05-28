@@ -1,6 +1,7 @@
 //Arduino Bluetooth Controlled Car
 //Before uploading the code you have to install the necessary library
 //AFMotor Library https://learn.adafruit.com/adafruit-motor-shield/library-install 
+//ENSURE THAT THE BLUETOOTH MODULE IS DISCONNECTED FROM THE BOARD BEFORE UPLOAD. To do so, simply disconnect either one of the jumper wires.
 
 #include <AFMotor.h>
 

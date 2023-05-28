@@ -4,7 +4,7 @@ from pynput import keyboard
  
 evenement=""
 print("Start")
-port="COM3" #This will be different for various devices and on windows it will probably be a COM port.
+port="COM3" #This will be different for various devices and on windows it will probably be a COM port. CHANGE THIS LINE ONLY
 bluetooth=serial.Serial(port, 9600)#Start communications with the bluetooth unit
 print("Connected")
 bluetooth.flushInput() #This gives the bluetooth a little kick
@@ -32,10 +32,10 @@ def on_key_pressed(key):
            result = 'B'
            print(result)
         if result1=='Key.left' :
-           result = 'L'
+           result = 'R'
            print(result)
         if result1=='Key.right' :
-           result = 'R'
+           result = 'L'
            print(result)         
         result_bytes = result.encode('utf_8')
         bluetooth.write(result_bytes)
