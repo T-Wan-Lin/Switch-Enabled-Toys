@@ -15,7 +15,7 @@
 1. Plug in the switch interface on the *RIGHT* USB port. This is the COM5 port that will be used for Bluetooth communication. Should any other USB ports be used, change the port number accordingly in the Controller.py file. To find which port the switch interface is connected to visit this [site](https://help.fleetmon.com/en/articles/2010900-how-do-i-get-my-com-port-number-windows)
 
 
-2. Ensure that the computer's Bluetooth is ON and it is connected to a device named `HC-05`. Should you need a PIN to connect to the device, it is either `0000` of `1234`.
+2. Ensure that the computer's Bluetooth is ON and it is connected to a device named `HC-05`. Should you need a PIN to connect to the device, it is either `0000` or `1234`.
 
 
 3. Plug the switches into the module. Ensure that the FIRST light on the switch interface module is GREEN as shown in this [picture](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/blob/docs/docs/pictures/Switch%20Interface.jpg). If it is not, use the button on the top right corner of the switch module to switch between the mods.
