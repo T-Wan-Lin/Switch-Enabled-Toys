@@ -8,7 +8,7 @@ The following are the components used for the prototype:
 |   4   |           AA Battery Pack            |     1     |
 |   5   |             Jumper Wires             | As needed |
 |   6   |               C-frame                |     2     |
-|   7   |      Rubber Lining alon C-frame      | As needed |
+|   7   |      Rubber Lining along C-frame      | As needed |
 |   8   |             Arduino Uno              |     1     |
 |   9   | Arduino L293D DC Motor Driver Shield |     1     |
 |  10   |        HC-05 Bluetooth Module        |     1     |
