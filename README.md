@@ -1,6 +1,6 @@
 # Switch-Enabled-Toys: An EGSC Project done in collaboration with Rainbow Centre
 
-## About EGSC (Student Chapter)
+## About EGSC 
 EGSC (Engineering Good Student Chapters) is an initiative by Engineering Good, a Singapore-based non-profit organization. EGSC aims to engage students in engineering and technology fields to create positive social impact. Through their student chapters, they provide opportunities for students to collaborate, develop innovative solutions, and contribute to various social causes. Visit their [website](https://engineeringgood.org/about-us/student-chapters/) for more information.
 
 ## About Rainbow Centre
@@ -14,4 +14,34 @@ We are currently working on a remote-controlled device that can be controlled by
 just by pressing a few buttons. We hope that with this device, they can engage more meaningfully in sports, 
 and learn about directional changes as well as cause and effect.
 
-For technical documentation, visit the `docs` [folder](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/tree/docs/docs) in this repository.
+For technical documentation, visit the `docs` [folder](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/tree/docs/docs) in this repository. 
+
+## Project members
+The following are the contributing members to this project:
+
+1. Tan Wan Lin
+
+
+2. Kwa Minyi, Samantha
+
+
+3. Cheran Lee Yen-ning
+
+
+4. Hoe Mun
+
+
+5. Pulipaka Sai Nandini
+
+
+Should you need additional guidance, do not hesitate to contact us or raise an issue on Github.
+
+## Acknowledgement
+
+We would like to thank EGSC for giving us this invaluable opportunity as well as Mr Koh and Mr Khoo for their guidance.
+
+Resources used:
+
+How to build a DIY Bluetooth car: https://www.youtube.com/watch?v=Q36NbjPMV5k
+
+

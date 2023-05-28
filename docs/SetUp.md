@@ -4,7 +4,6 @@
 1. Ensure that you have Python 3.70 (and above) installed. Visit this [site](https://www.python.org/downloads/release/python-370/) to install Python (including IDLE).
 2. (Only if you have to upload the Arduino code, else, skip this step) Ensure that Arduino IDE is installed on your personal computer.
 3. Ensure that these 2 python modules are installed: pyserial and pynput for the program to run
-4. 
 
 
 ## Instructions for use
@@ -19,7 +18,7 @@
 2. Ensure that the computer's Bluetooth is ON and it is connected to a device named `HC-05`. Should you need a PIN to connect to the device, it is either `0000` of `1234`.
 
 
-3. Ensure that the FIRST light on the switch interface module is GREEN as shown in this [picture]().
+3. Plug the switches into the module. Ensure that the FIRST light on the switch interface module is GREEN as shown in this [picture](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/blob/docs/docs/pictures/Switch%20Interface.jpg). If it is not, use the button on the top right corner of the switch module to switch between the mods.
 
 4. Run the executable file. Press the switches. Give the bot some time to receive the first signals (latency). If the executable file cannot be located, proceed to step 5.
 
@@ -46,10 +45,10 @@ Steps:
 4. Select the correct board and port.
 5. Upload the code. 
 
-You may visit this (site)[https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE] for more detailed steps on troubleshooting.
+You may visit this [site](https://support.arduino.cc/hc/en-us/articles/4733418441116-Upload-a-sketch-in-Arduino-IDE) for more detailed steps on troubleshooting.
 
 
-Back-up code can be found in [G-Drive](https://drive.google.com/drive/folders/1xDtzrKRc55RQwkxslrCCrbxYAzH-E_bL?usp=sharing):
+Back-up code can be found in [G-Drive folder](https://drive.google.com/drive/folders/1xDtzrKRc55RQwkxslrCCrbxYAzH-E_bL?usp=sharing)
 
 
 ### Glossary
