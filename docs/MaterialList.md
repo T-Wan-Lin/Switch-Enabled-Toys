@@ -14,5 +14,8 @@ The following are the components used for the prototype:
 |  10   |        HC-05 Bluetooth Module        |     1     |
 |  11   |    Nuts, bolts, hex brass screws     | As needed |
 
-*One for lower and one for upper deck 
-**Note: 9V is the minimum voltage needed to power the prototype but cannot be replaced with a single 9V battery cell after testing.
+```
+* One for lower and one for upper deck 
+
+** Note: 9V is the minimum voltage needed to power the prototype but cannot be replaced with a single 9V battery cell after testing.
+```
