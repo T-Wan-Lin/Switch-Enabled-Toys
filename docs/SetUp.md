@@ -3,7 +3,7 @@
 ## System requirements (should the designated device not be used)
 1. Ensure that you have Python 3.70 (and above) installed. Visit this [site](https://www.python.org/downloads/release/python-370/) to install Python (including IDLE).
 2. (Only if you have to upload the Arduino code, else, skip this step) Ensure that Arduino IDE is installed on your personal computer.
-3. Ensure that these 2 python modules are installed: pyserial and pynput for the program to run
+3. Ensure that these 2 python modules are installed: pyserial (using _pip install pyserial_ on commmand prompt) and pynput (using _pip install pynput_ on command prompt) for the program to run. (If pip is not recognised, use _py -m pip install [packagename]_ on command prompt instead)
 
 
 ## Instructions for use
@@ -15,19 +15,19 @@
 1. Plug in the switch interface on the *RIGHT* USB port. This is the COM5 port that will be used for Bluetooth communication. Should any other USB ports be used, change the port number accordingly in the Controller.py file. To find which port the switch interface is connected to visit this [site](https://help.fleetmon.com/en/articles/2010900-how-do-i-get-my-com-port-number-windows)
 
 
-2. Ensure that the computer's Bluetooth is ON and it is connected to a device named `HC-05`. Should you need a PIN to connect to the device, it is either `0000` of `1234`.
+2. Ensure that the computer's Bluetooth is ON and it is connected to a device named `HC-05`. Should you need a PIN to connect to the device, it is either `0000` or `1234`.
 
 
-3. Plug the switches into the module. Ensure that the FIRST light on the switch interface module is GREEN as shown in this [picture](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/blob/docs/docs/pictures/Switch%20Interface.jpg). If it is not, use the button on the top right corner of the switch module to switch between the mods.
+3. Plug the switches into the module. Ensure that the FIRST light on the switch interface module is GREEN as shown in this [picture](https://github.com/T-Wan-Lin/Switch-Enabled-Toys/blob/docs/docs/pictures/Switch%20Interface.jpg). If it is not, use the button on the top right corner of the switch module to switch between the modes.
 
-4. Run the executable file. Press the switches. Give the bot some time to receive the first signals (latency). If the executable file cannot be located, proceed to step 5.
+4. Run the executable* file. Press the switches. Give the bot some time to receive the first signals (latency). If the executable file cannot be located, proceed to step 5.
 
 
 5. Download the Controller.py file and put it in the Desktop directory (preferable). Open the file in IDLE. In the uppermost toolbar, click `Run` and in the dropdown, click `Run Module`. Should there be no errors, `Start` should be printed. Should there be errors (in red text) check if the relevant python modules are installed or if the Bluetooth connection is working. This step applies to other computers that are used other than the designated one.
 
 6. Press the switches to move the bot. Give the bot some time to receive the first signals (latency).
 
-
+*To create the executable file for easier usage of Controller.py file, the python module - pyinstaller has to be installed (using _pip install pyinstaller_ on command prompt). (If pip is not recognised, use _py -m pip install pyinstaller_ on command prompt instead) Subsequently, in command prompt, change to the directory of the Controller.py file (using _cd [file directory]_) and run the following code (_pyinstaller --onefile Controller.py_) [Reference: https://datatofish.com/executable-pyinstaller/]
 
 ## Uploading of Code 
 
