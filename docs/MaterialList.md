@@ -20,7 +20,8 @@ The following are the components used for the prototype:
 ```
 * One for lower and one for upper deck 
 
-** Note: 9V is the minimum voltage needed to power the prototype but cannot be replaced with a single 9V battery cell after testing.
+** Note: 9V is the minimum voltage needed to power the prototype but cannot be replaced with a single 9V battery 
+cell due to limitations uncovered during real-life testing.
 
 *** Using the c-frame dxf file, laser cut on acrylic sheet 
 ```

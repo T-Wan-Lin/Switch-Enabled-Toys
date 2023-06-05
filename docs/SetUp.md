@@ -51,7 +51,7 @@ You may visit this [site](https://support.arduino.cc/hc/en-us/articles/473341844
 Back-up code can be found in [G-Drive folder](https://drive.google.com/drive/folders/1xDtzrKRc55RQwkxslrCCrbxYAzH-E_bL?usp=sharing)
 
 
-### Glossary
+## Glossary
 1. IDE: Integrated Development Environment
 2. IDLE: Python IDE
 
